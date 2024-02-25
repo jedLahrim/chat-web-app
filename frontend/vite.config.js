@@ -8,7 +8,7 @@ export default defineConfig({
         port: 3000,
         proxy: {
             "/api": {
-                target: "http://localhost:5002",
+                target: "https://chat-web-app-backend.vercel.app",
             },
         },
     },
